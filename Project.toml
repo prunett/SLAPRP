@@ -3,6 +3,17 @@ uuid = "0d9221c1-e79c-46aa-b738-867baaf8c21b"
 authors = ["Thibault Prunet <thibault.prunet@enpc.fr> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+CPLEX = "a076750e-1247-5638-91d2-ce28b192dca0"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
 [compat]
 julia = "1.6.7"
 
