@@ -1,5 +1,3 @@
-[![Build Status](https://github.com/prunett/SLAPRP.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/prunett/SLAPRP.jl/actions/workflows/CI.yml?query=branch%3Amain)
-
 # SLAPRP.jl
 
 Branch-Cut-and-Price algorithm for solving the Storage Location Assignment and Picker Routing Problem.
