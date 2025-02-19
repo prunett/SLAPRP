@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/prunett/SLAPRP.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/prunett/SLAPRP.jl/actions/workflows/CI.yml?query=branch%3Amain)
+
 # SLAPRP.jl
 
 Branch-Cut-and-Price algorithm for solving the Storage Location Assignment and Picker Routing Problem.
@@ -34,6 +36,8 @@ For instance, run the following command to reproduce the results for the silva d
 ```julia
 run("silva","return")
 ```
+
+Beware that this command will run the algorithm on the whole testbed, which may be time consuming.
 
 ## Reference
 

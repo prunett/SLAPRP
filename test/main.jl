@@ -186,5 +186,3 @@ function run(dataset,routing_policy)
         end
     end
 end
-
-run("guo", "return")

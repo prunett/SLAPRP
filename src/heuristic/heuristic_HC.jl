@@ -321,7 +321,7 @@ function main_HC_algo(instance::structures_decomp.instance,config::HC_config)
     for s in keys(ins.fixed_positions)
         @assert best_solution.plan[s].id == ins.fixed_positions[s].id
     end
-    println("best solution cost = $(best_solution.cost), sol cost = $(cost_functions.sol_cost(ins,best_solution.plan))")
+    #println("best solution cost = $(best_solution.cost), sol cost = $(cost_functions.sol_cost(ins,best_solution.plan))")
     # check cost
     @assert best_solution.cost == cost_functions.sol_cost(ins,best_solution.plan)
 
